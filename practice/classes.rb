@@ -36,3 +36,4 @@ end
 theran = Student.new("Theran", "Brigowatz", "userman", "user@email.com", "password")
 puts theran
 puts BCrypt::Password.new(theran.password) == "password"
+ 
